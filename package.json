@@ -5,6 +5,7 @@
   "main": "bin/node.bundle.js",
   "botskin": {
     "menuText": "Broadcast",
+    "menuIcon": "settings_input_antenna",
     "webBundle": "bin/web.bundle.js"
   },
   "scripts": {
@@ -37,5 +38,8 @@
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
   }
 }
